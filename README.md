@@ -1,8 +1,5 @@
 # **Finding Lane Lines on the Road** 
 
-[output1]: ./test_videos_output/solidWhiteRight.mp4 "solidWhiteRight"
-[output2]: ./test_videos_output/solidYellowLeft.mp4 "solidYellowLeft"
-
 ---
 
 ### 1. 5 Steps of Finding Lane Lines Pipeline and Introduction of enhanced draw_lines()
@@ -27,12 +24,6 @@ The slopes have to be equal or more than the absolute minimum value of the slope
 And then distributing the edges to left side or right side by checking whether these are positive or negative values.
 After finding two endpoints and the fit linear polynominal slope and fit y-axis value in each left side and right side, 
 I draw the left line and right line by using cv2.line() with the information.
-
-Here are the output results :
-
-![alt text][output1]
-![alt text][output2]
-
 
 ### 2. Identify potential shortcomings with your current pipeline
 
