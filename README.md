@@ -2,7 +2,7 @@
 
 ---
 
-### 1. 5 Steps of Finding Lane Lines Pipeline and Introduction of enhanced draw_lines()
+### 1. 5 Steps of Finding Lane Lines Pipeline and Introduction of enhanced drawing lines
 
 Step1) COLOR SELECTION  
 Firstly, I select colors above RGB thresholds. The colors below the thresholds are processed to black [0,0,0].  
